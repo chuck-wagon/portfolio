@@ -6,8 +6,8 @@ let app = express()
 
 // Declare routes / is the homepage route
 app.get('/', (req,res) => {
-    res.send('<h1>HELLO SEI!</h1>')
+    res.send('<h1>This will be our little secret!</h1><p>-Chalk Wagen </p><img src="https://media.giphy.com/media/dMGvcduPkahSo/giphy.gif" alt="Bob Ross">')
+    
 })
-
-// Pick a port to listen on
+// Pick a port to listnen on
 app.listen(3000)
